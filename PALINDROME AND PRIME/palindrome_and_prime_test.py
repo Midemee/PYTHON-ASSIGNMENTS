@@ -5,7 +5,7 @@ from palindrome_and_prime import *
 class TestPalindrome(TestCase):
 
     def test_that_the_palindrome_is_correct(self):
-        self.assertEqual(palindrome(787), "Number is a palindrome")
+        self.assertEqual(palindrome(727), "Number is a palindrome")
         
     def test_that_the_palindrome_is_incorrect(self):
         self.assertEqual(palindrome(783), "Number is not a palindrome")
